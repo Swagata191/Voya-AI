@@ -1,43 +1,67 @@
-Voya AI: Intelligent Wildlife Registry  
-Live Demo: neighbor-loop-73358856972.us-central1.run.app  
+# Voya AI: Intelligent Wildlife Registry
 
-🐾 Overview  
-Voya AI is an Intelligent Wildlife Registry designed to streamline the identification and cataloging of wildlife species using AI-enabled database features. Built with a focus on scalability and modern web standards, the application provides an intuitive interface for researchers and conservationists to manage biodiversity data effectively.
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20on%20Cloud%20Run-blue?style=for-the-badge&logo=google-cloud)](https://neighbor-loop-73358856972.us-central1.run.app/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-orange?style=for-the-badge)](LICENSE)
 
-🚀 Key Features  
-AI-Powered Insights: Leverages AI to enhance database queries and provide intelligent data associations.
-Real-time Registry: A dynamic dashboard for tracking wildlife sightings and metadata.
-Cloud-Native Architecture: Fully containerized using Docker and deployed on Google Cloud Run for high availability and auto-scaling.
-Responsive Design: Optimized for both desktop and mobile viewing using modern CSS and HTML5.
+Voya AI is a sophisticated **Intelligent Wildlife Registry** designed to catalog and identify wildlife species. By leveraging **AI-enabled database features** and a cloud-native architecture, it provides a scalable platform for biodiversity data management and research.
 
-🛠️ Tech Stack  
-Frontend: HTML5, CSS3, JavaScript
-Backend: Python (Flask/Streamlit framework)
-Database: AlloyDB for PostgreSQL with AI-enabled features
-DevOps: Docker, Google Cloud Build, Google Cloud Run
-Version Control: Git & GitHub
+---
 
-📦 Project Structure  
+## 🚀 Key Features
+
+* **Intelligent Identification:** Leverages AI to provide smart data associations within the registry.  
+* **Real-time Tracking:** A dynamic dashboard for immediate species metadata management.  
+* **Scalable Infrastructure:** Fully containerized and deployed via **Google Cloud Run**.  
+* **Modern UI:** A responsive, professional interface optimized for all devices.  
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Backend** | Python (Flask / Streamlit) |
+| **Database** | AlloyDB for PostgreSQL (AI-Enabled) |
+| **Cloud/DevOps** | Docker, Google Cloud Build, GCP Run |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 📂 Project Structure
+```text
 neighbor-loop/
-├── app.py              # Main application logic
-├── app.html            # Frontend template
-├── static/             # Assets (images/CSS)
-├── templates/          # HTML templates
-├── Dockerfile          # Container configuration
-└── requirements.txt    # Python dependencies
+├── app.py              # Core application logic
+├── templates/          # HTML frontend templates
+├── static/             # CSS and Image assets
+├── Dockerfile          # Containerization instructions
+├── requirements.txt    # Python dependency manifest
+└── .gitignore          # Protected configuration (Excludes .env)
+```
+---
 
-🛠️ Installation & Setup  
-Clone the repository:
-git clone https://github.com/Swagata191/Voya-AI.git
+## ⚙️ Installation & Local Setup  
+
+### 1. Clone the Project
+```bash
+git clone [https://github.com/Swagata191/Voya-AI.git](https://github.com/Swagata191/Voya-AI.git)
 cd Voya-AI
-
-Set up environment variables:  
-Create a .env file (ignored by Git) and add your Project ID:
+```
+### 2. Configure Environment  
+Create a .env file in the root directory to store the Project ID:
+```bash
 PROJECT_ID=voya-491216
-
-Run with Docker:  
+```
+### 3. Deploy with Docker  
+```bash
 docker build -t voya-ai .
 docker run -p 8080:8080 voya-ai
+```
+---
 
-📄 License  
-This project is licensed under the Apache-2.0 License.
+## 📄 License  
+Distributed under the Apache-2.0 License.
+
+--- 
+
+## Developed by Swagata Maji
