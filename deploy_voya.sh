@@ -1,0 +1,2 @@
+gcloud beta run deploy neighbor-loop    --source .    --region=us-central1    --network=easy-alloydb-vpc    --subnet=easy-alloydb-subnet    --allow-unauthenticated    --vpc-egress=all-traffic    --clear-base-image    --set-env-vars GEMINI_API_KEY="AIzaSyCpl0K60TAkxqyaopdXa6wE0waxYEsOqFc"    --set-env-vars DATABASE_URL="postgresql+pg8000://postgres:Voya_123@10.141.0.2:5432/postgres"
+   --set-env-vars GCS_BUCKET_NAME="voya-491216_bucket-1"
