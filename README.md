@@ -47,10 +47,10 @@ neighbor-loop/
 git clone [https://github.com/Swagata191/Voya-AI.git](https://github.com/Swagata191/Voya-AI.git)
 cd Voya-AI
 ```
-### 2. Configure Environment  
-Create a .env file in the root directory to store the Project ID:
+### 2. Configure Environment
+Create a `.env` file in the root directory to store your project configuration:
 ```bash
-PROJECT_ID=voya-491216
+PROJECT_ID=your-google-cloud-project-id
 ```
 ### 3. Deploy with Docker  
 ```bash
