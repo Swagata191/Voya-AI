@@ -53,6 +53,7 @@ Create a `.env` file in the root directory to store your project configuration:
 PROJECT_ID=your-google-cloud-project-id
 ```
 ### 3. Deploy with Docker  
+Install Docker then run the following commands to containerize the registry:
 ```bash
 docker build -t voya-ai .
 docker run -p 8080:8080 voya-ai
