@@ -61,7 +61,7 @@ docker run -p 8080:8080 voya-ai
 ---
 
 ## 📄 License  
-Distributed under the Apache-2.0 License.
+Distributed under the Apache-2.0 License. See `LICENSE` for more info
 
 --- 
 
