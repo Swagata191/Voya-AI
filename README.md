@@ -4,7 +4,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-orange?style=for-the-badge)](LICENSE)
 
 Voya AI is a sophisticated **Intelligent Wildlife Registry** designed to catalog and identify wildlife species. By leveraging **AI-enabled database features** and a cloud-native architecture, it provides a scalable platform for biodiversity data management and research.
-[![Homepage](static/Homepage.png)
+
+![Homepage](static/Homepage.png)
 
 ---
 
